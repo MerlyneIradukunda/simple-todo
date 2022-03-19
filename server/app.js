@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
-const crudRoutes = require('./server/routes/crud');
+const crudRoutes = require('./routes/crud');
 
 const app = express();
 const MONGODBURL = "mongodb+srv://Test:test@cluster0.etiat.mongodb.net/simple-todo?retryWrites=true&w=majority";
